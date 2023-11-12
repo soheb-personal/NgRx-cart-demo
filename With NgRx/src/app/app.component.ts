@@ -11,13 +11,13 @@ import { loadVegetables } from './store/vegetables.actions';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  isFruitsLoading = true;
-  isVegetableLoading = true;
+  //isFruitsLoading = true;
+  //isVegetableLoading = true;
   constructor(
     private dataService: DataService,
     // private sharedService: SharedService,
     private store: Store
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     // this.isFruitsLoading = true;
